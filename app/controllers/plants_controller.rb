@@ -38,4 +38,5 @@ class PlantsController < ApplicationController
   def plant_params
     params.permit(:name, :image, :price, :is_in_stock)
   end
+  
 end
